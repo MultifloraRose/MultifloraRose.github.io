@@ -1,0 +1,10 @@
+.box1{
+    background: url(../test/trialPicture/小小.gif)
+    no-repeat 10px center
+}
+h1{
+    color:cornflowerblue;
+    margin-top: fill;
+    font-size: 20px;
+    height: 200px;
+}

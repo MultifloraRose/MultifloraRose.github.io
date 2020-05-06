@@ -1,0 +1,125 @@
+/* Makeshift CSS Reset */
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, aside, nav, article {
+    display: block;
+}
+
+body {
+    margin: 0 auto;
+    width: 940px;
+    font: 13px/22px Helvetica, Arial, sans-serif;
+    background: #f4f0e6;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 44px;
+    padding: 22px 0;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 11px 0;
+}
+
+p {
+    padding-bottom: 22px;
+}
+nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #fafffb;
+}
+nav ul {
+    margin: 0 auto;
+    width: 940px;
+    list-style: none;
+}
+
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    margin-right: 20px;
+    width: 140px;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none;
+    color: #777;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+nav ul li.selected a {
+    color: #fff;
+}
+
+#intro {
+    margin-top: 66px;
+    padding: 44px;
+    background: #fafffb url("https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1366382289,3555777996&fm=26&gp=0.jpg") repeat-x;
+    background-size: 100%;
+    border-radius: 22px;
+}
+#intro h2, #intro p¬†{
+    width: 336px;
+}
+
+#intro h2 {
+    padding: 0 0 22px 0;
+    font-weight: normal;
+    color: #4e4339;
+}
+
+#intro p {
+    padding: 0;
+    color: #f4f08f;
+}
+
+footer{
+    clear:both;
+    display: block;
+    background: #f4f0e6;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 0px;
+}
+footer h2{
+    font-size: 30px;
+    color: #f4b093;
+    text-align: right;
+}
+#content {
+    display: table;
+}
+
+#mainContent {
+    display: table-cell;
+    width: 620px;
+    padding-right: 22px;
+}
+
+aside {
+    display: table-cell;
+    width: 350px;
+}
+.light img {
+    margin: 22px 5px;
+    box-shadow: 3px 3px 7px #777;
+}
+*{
+    box-sizing:border-box;
+}
