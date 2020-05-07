@@ -13,3 +13,16 @@ table{
     margin: auto;
     top: 30%;
 }
+footer{
+    clear:both;
+    display: block;
+    background: #fafffb;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 15px;
+}
+footer h2{
+    font-size: 20px;
+    color: #a1bca3;
+    text-align: right;
+}
