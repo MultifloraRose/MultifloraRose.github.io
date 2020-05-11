@@ -60,11 +60,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #fff;
+    color: #edc791;
 }
 
 nav ul li.selected a {
-    color: #fff;
+    color: #edc791;
 }
 
 #intro {

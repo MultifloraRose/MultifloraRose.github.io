@@ -2,17 +2,59 @@ h1{
     position: center;
     top: 10%;
     width: 100%;
-    text-align: center;
-    color: rgb(104, 150, 173);
+    text-align: left;
+    color: rgb(192, 222, 244);
     margin: 0;
     padding: 0;
-    font-size: 5em;
+    font-size: 3em;
 
 }
-table{
-    margin: auto;
-    top: 30%;
+body{
+    background-image: url("http://hbimg.b0.upaiyun.com/dc29b880778a5fbe2c41de700acdf191df5f99bd8bff-YzoZ6y_fw658");
+    background-repeat: repeat-y;
+    background-size:100% auto;
 }
+.container{
+    width: 1100px;
+    margin: 15px 30px;
+    background-color: #f4f0e6;
+}
+nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #c0def4;
+}
+nav ul {
+    margin: 0 auto;
+    width: 940px;
+    list-style: none;
+}
+
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    margin-right: 20px;
+    width: 140px;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none;
+    color: #777;
+}
+
+nav ul li a:hover {
+    color: #edc791;
+}
+
+nav ul li.selected a {
+    color: #edc791;
+}
+
 footer{
     clear:both;
     display: block;
@@ -25,4 +67,125 @@ footer h2{
     font-size: 20px;
     color: #a1bca3;
     text-align: right;
+}
+*{
+    box-sizing:border-box;
+}
+.img-banner1 img{
+    max-width:40%;
+    float: left;
+    padding: 10px 10px;
+    margin-top: 10%;
+}
+.card-body1{
+    position: absolute;
+    bottom: 16%;
+    left: 60px;
+}
+.img-banner2 img{
+    max-width:40%;
+    float: left;
+    padding: 20px 9px;
+    margin-top: 10%;
+}
+.card-body2 {
+    position: absolute;
+    bottom: 16%;
+    left: 40%;
+}
+.img-banner3 img{
+    max-width:40%;
+    float: right;
+    margin-top: 3%;
+    padding: 20px 4px;
+
+}
+.card-body3 {
+    position: absolute;
+    bottom: -38%;
+    left: 56%;
+}
+.img-banner4 img{
+    max-width:40%;
+    float: right;
+    margin-top: 3%;
+    padding: 15px 15px;
+}
+.card-body4 {
+    position: absolute;
+    bottom: -40%;
+    left: 22%;
+}
+.card-body1 a{
+    text-decoration: none;
+    color:#bc985e;
+     font-size: 2em;
+
+}
+.card-body1 a:hover {
+    color: #51b12c;
+}
+.card-body1 selected a {
+    color: #51b12c;
+}
+
+.card-body1 h4 {
+color: #bc985e;
+}
+.card-text1{
+        color: #bc985e;
+    }
+
+.card-body2 a{
+     text-decoration: none;
+     color: black;
+    font-size: 2em;
+ }
+.card-body2 a:hover {
+    color: #a5b130;
+}
+.card-body2 selected a {
+    color: #a5b130;
+}
+.card-body2 h4 {
+    color: black;
+}
+.card-text2{
+    color: black;
+}
+.card-body3 a{
+    text-decoration: none;
+    color: #edc791;
+    font-size: 2em;
+
+}
+.card-body3 a:hover {
+    color: #f48a5c;
+}
+.card-body3 selected a {
+    color: #f49a5d;
+}
+.card-body3 h4 {
+    color: #edc791;
+}
+.card-text3{
+    color: #edc791;
+}
+.card-body4 a{
+    text-decoration: none;
+    color: #eeb9f4;
+    font-size: 2em;
+
+}
+.card-body4 a:hover {
+    color: #a588ed;
+}
+.card-body4 selected a {
+    color: #a588ed;
+}
+.card-body4 h4 {
+    color: #eeb9f4;
+}
+.card-text4{
+    color: #eeb9f4;
 }
