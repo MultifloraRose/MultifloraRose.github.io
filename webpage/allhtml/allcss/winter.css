@@ -1,26 +1,66 @@
-body{
-    background-color: #d1d4d5;
-}
-.container {
-    width: 1100px;
-    margin: 15px auto;
-    background-color: #fff;
-    text-align: center;
-}
-.main-area {
-    border-top: 2px solid #5cbcb6;
-    border-bottom: 2px solid #a1bca3;
-    padding: 0 25px;
-    background-image: url("http://hbimg.b0.upaiyun.com/b09cf9c973b575418dfc4cc9cfbbabe381bf41e829a7f-pgA2IH_fw658");
-    background-repeat: no-repeat;
-    background-size:100% auto;
+header, footer, aside, nav {
+    display: block;
 }
 
-header h2{
-    margin: 0;
-    font-size: 24px;
-    color: #d1d4d5;
+body {
+    margin: 0 auto;
+    width: 1000px;
+    font: 13px/22px Helvetica, Arial, sans-serif;
+    background:url("https://www.cq67.com/uploads/fengjing/38647/140109124952-0.jpg");
+    background-repeat: repeat-y;
+    background-size:100% auto;
 }
+nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #afb1ed;
+    margin: 10px;
+}
+nav ul {
+    margin:0 0;
+    width: 1000px;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    margin-right: 20px;
+    width: 140px;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none;
+    color: #777;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+nav ul li.selected a {
+    color: #fff;
+}
+
+#content {
+    display: table;
+    text-align: center;
+    width: 800px;
+    padding: 5em 2em;
+}
+aside {
+    display: table-cell;
+    width: 200px;
+}
+
 footer{
     height: 60px;
     text-align: center;
@@ -31,4 +71,7 @@ footer{
 footer p{
     margin: 0 20px;
     text-align: right;
+}
+*{
+    box-sizing:border-box;
 }
